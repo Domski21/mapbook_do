@@ -1,20 +1,10 @@
-users: list = [
-    {'name': 'Dominik', 'posts': 1, 'city': 'Warszawa'},
-    {'name': 'Dominik', 'posts': 3, 'city': 'Katowice'},
-    {'name': 'Szymon z wąsem', 'posts': 5, 'city': 'Siemiatycze'},
-    {'name': 'Szymon', 'posts': 7, 'city': 'Kielce'},
-    {'name': 'Patryk', 'posts': 9, 'city': 'Łódź'},
-    {'name': 'Kinga', 'posts': 11, 'city': 'Iława'},
-    {'name': 'Dominik', 'posts': 13, 'city': 'Siedlce'},
-    {'name': 'Michał', 'posts': 15, 'city': 'Kluczbork'},
-    {'name': 'Żerom', 'posts': 17, 'city': 'Tarnobrzeg'},
-    {'name': 'Amelka', 'posts': 20, 'city': 'Toruń'},
-]
-#TODO please update user list
+from mapbook.users import users
+from mapbook.crud import hello, read_users
 
-print(f'Witaj {users[0]['name']}!!')
+def main():
+    hello(users[0]['name'])
+    read_users(users)
 
-for user in users[1:]:
-    print(f'Twój znajomy  {user['name']},z miasta {user['city']} opublikował {user['posts']} postów')
-# for idx, _ in enumerate(users[0:]):
-#     print(f'Twój znajony {users[idx]}, opublikował {postow[idx]} postów')
+if __name__ == '__main__':
+    main()
+

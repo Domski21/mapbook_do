@@ -9,7 +9,6 @@ users: list = [
     {'name': 'Michał', 'posts': 15, 'city': 'Kluczbork'},
     {'name': 'Żerom', 'posts': 17, 'city': 'Tarnobrzeg'},
     {'name': 'Amelka', 'posts': 20, 'city': 'Toruń'},
-
 ]
 #TODO please update user list
 

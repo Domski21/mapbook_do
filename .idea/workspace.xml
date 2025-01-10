@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df8a4aa9-7179-489a-b7cb-d51f438c7c5c" name="Changes" comment="feat: menu add">
-      <change afterPath="$PROJECT_DIR$/mapbook/map_functions.py" afterDir="false" />
+    <list default="true" id="df8a4aa9-7179-489a-b7cb-d51f438c7c5c" name="Changes" comment="feat: crud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -38,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Domski21/mapbook_do.git&quot;,
-    &quot;accountId&quot;: &quot;25d76a7e-00b6-4efb-910c-7b4e23fe6d04&quot;
+    &quot;accountId&quot;: &quot;8ab4bf65-5b27-4cb2-ad9a-441ff3685930&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -49,23 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.map_functions.executor": "Run",
-    "Python.notatnik.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feat-menu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.map_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.notatnik.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat-gui&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dominik/Desktop/WAT/7 sem/PSIP/mapbook_do&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mapbook_do" />
@@ -139,8 +140,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.map_functions" />
         <item itemvalue="Python.notatnik" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.map_functions" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +163,9 @@
       <option name="presentableId" value="Default" />
       <updated>1732537843198</updated>
       <workItem from="1732537844372" duration="2119000" />
+      <workItem from="1734345879610" duration="9283000" />
+      <workItem from="1736493896090" duration="71000" />
+      <workItem from="1736493972193" duration="9272000" />
     </task>
     <task id="LOCAL-00001" summary="chore: add new users">
       <option name="closed" value="true" />
@@ -186,7 +191,47 @@
       <option name="project" value="LOCAL" />
       <updated>1733743294720</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: spatial data scrapping, single and multi map functions">
+      <option name="closed" value="true" />
+      <created>1733750123682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733750123682</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: gui">
+      <option name="closed" value="true" />
+      <created>1734353575855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734353575855</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: gui map user class">
+      <option name="closed" value="true" />
+      <created>1734355415869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734355415869</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add user, remove user in tkinter">
+      <option name="closed" value="true" />
+      <created>1736497947131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736497947131</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: crud">
+      <option name="closed" value="true" />
+      <created>1736500456691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736500456691</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,11 +252,17 @@
     <MESSAGE value="chore: add new users" />
     <MESSAGE value="chore: formating" />
     <MESSAGE value="feat: menu add" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: menu add" />
+    <MESSAGE value="feat: spatial data scrapping, single and multi map functions" />
+    <MESSAGE value="feat: gui" />
+    <MESSAGE value="feat: gui map user class" />
+    <MESSAGE value="feat: add user, remove user in tkinter" />
+    <MESSAGE value="feat: crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: crud" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mapbook_do$notatnik.coverage" NAME="notatnik Coverage Results" MODIFIED="1733748670206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mapbook_do$main.coverage" NAME="main Coverage Results" MODIFIED="1733749758485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mapbook_do$notatnik.coverage" NAME="notatnik Coverage Results" MODIFIED="1734354010316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mapbook_do$main.coverage" NAME="main Coverage Results" MODIFIED="1734355045956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1736502941161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mapbook_do$map_functions.coverage" NAME="map_functions Coverage Results" MODIFIED="1733749399898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mapbook" />
   </component>
 </project>
